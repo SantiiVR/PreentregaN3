@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+    background-image: url(../../assets/imagenes/fondoLogo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+    img {
+    display: flex;
+    object-fit: contain;
+    width: 100%;
+    height: 40%;}
+}

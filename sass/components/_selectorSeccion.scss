@@ -1,0 +1,42 @@
+.seccionCategorias{
+    grid-row: 3;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+
+    a{
+        width: 25%;
+        height: 15%;
+        display: flex;
+        justify-content: space-around;
+
+
+        section{
+            text-align: center;
+            margin-top: 30px;
+            margin-right: 20px;
+            padding: 10px 10px;
+            border: 1px solid white;
+            box-shadow: 10px 10px 5px rgba(75, 74, 74, 0.8);
+            width: 350px;
+            height: 320px;
+            
+            img{
+                width: 95%;
+                height: 80%;
+            }
+            h3{
+                color: rgb(153, 152, 152);
+                margin-top: 5px;
+                padding: 5px;
+                border-radius: 10px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,19 @@
+@import  "./base/reset";
+
+
+@import "./layout/grids";
+@import "./layout/banners";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/Paginas/diseñoArmaduras";
+@import "./layout/Paginas/diseñoArma";
+@import "./layout/Paginas/conjuros";
+@import "./layout/Paginas/objetos";
+
+
+@import "./components/selectorSeccion";
+
+
+@import "./layout/media/mediaMax500";
+@import "./layout/media/media751";
+@import "./layout/media/media501";

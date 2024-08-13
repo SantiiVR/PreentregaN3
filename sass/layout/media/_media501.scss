@@ -1,0 +1,23 @@
+@media (min-width: 501px) and (max-width: 750px) {
+    .seccionCategorias{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+        gap: 40px;
+        
+        a{
+            section{
+                width:  160px;
+                height: 160px;
+                margin: 10px;
+                
+                
+                
+                img{        
+                height: 100%;
+                width:  100%; }
+            }
+        }
+    }
+}

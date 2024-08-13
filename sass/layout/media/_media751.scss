@@ -1,0 +1,48 @@
+@media (min-width: 751px) and (max-width:1024px) {
+    .seccionCategorias{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        gap: 15px;
+        
+        a{
+            section {
+                width: 220px;
+                height: 220px;
+            }
+        }
+        }
+    
+
+    
+    
+
+        
+        .presentacion{
+            display: flex;
+            flex-direction: column;
+            background-color: #1e1c1c;
+            align-items: center;
+            padding: 20px;
+            grid-row: 2;
+            margin: 20px 10%;
+            border: solid 1px white;
+            border-radius: 20px;
+            box-shadow: 10px 20px 10px rgba(75, 74, 74, 0.8);
+            
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            h3{
+                font-size: 1.2rem;
+            }
+
+            p{
+                font-size: 1rem;
+            }
+        }
+}

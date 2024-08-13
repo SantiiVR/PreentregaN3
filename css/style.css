@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #252525; }
+
+.grid {
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  grid-template-columns: 1;
+  grid-template-rows: 1; }
+
+.presentacion {
+  background-color: #1c1c1c;
+  align-items: center;
+  padding: 20px;
+  grid-row: 2;
+  margin: 40px 10%;
+  border: solid 1px white;
+  border-radius: 20px;
+  box-shadow: 10px 20px 10px rgba(75, 74, 74, 0.8); }
+  .presentacion h1 {
+    text-align: center;
+    color: #999898;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .presentacion h2 {
+    color: #999898;
+    text-transform: capitalize;
+    font-weight: bold; }
+  .presentacion p {
+    color: #999898;
+    font-style: italic;
+    margin-top: 10px; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+  background-image: url(../../assets/imagenes/fondoLogo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%; }
+  .header img {
+    display: flex;
+    object-fit: contain;
+    width: 100%;
+    height: 40%; }
+
+.footer {
+  background-color: black;
+  margin-top: 30px; }
+  .footer p {
+    color: white;
+    text-align: left;
+    font-size: 0.8rem;
+    margin: 5px 3px;
+    padding: 5px 3px; }
+
+/* pagina 2 */
+.divarmadura {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; }
+  .divarmadura section {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 8px 20px;
+    background-color: #1e1c1c;
+    border: solid 1px white;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    padding-left: 10px; }
+    .divarmadura section img {
+      margin: 10px 40%;
+      width: 20%;
+      height: 20%; }
+    .divarmadura section h5 {
+      font-size: 1.5rem;
+      color: #999898;
+      margin-top: 5px; }
+    .divarmadura section p {
+      font-size: 1rem;
+      color: #999898; }
+    .divarmadura section ul {
+      font-size: 1rem;
+      color: #999898; }
+
+/* pagina 1 */
+.contenedorAcordeon {
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  object-fit: contain; }
+
+.contenedorAcordeon h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 35px; }
+
+.acordeon {
+  background-color: #ffff;
+  border-radius: 10px; }
+
+.acordeon label {
+  display: block;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #1e1c1c;
+  color: #ffff;
+  cursor: pointer;
+  margin-bottom: 2px;
+  transition: all 300ms ease; }
+  .acordeon label:hover {
+    background-color: #2f2f2f; }
+
+.acordeon .contenidoAcordeon {
+  padding: 0px;
+  margin: 0px 20px;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 300ms ease; }
+
+.contenidoAcordeon div {
+  text-align: center;
+  margin-top: 10px; }
+
+.contenedorAcordeon img {
+  height: 10%;
+  width: 40%; }
+
+.btnAcordeon:checked ~ .contenidoAcordeon {
+  max-height: 600px;
+  padding: 15px 0px; }
+
+.btnAcordeon {
+  display: none; }
+
+/* pagina 3 */
+.lista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 3%;
+  margin-top: 10px; }
+  .lista h3 {
+    color: #999898;
+    padding: 10px; }
+  .lista section {
+    background-color: #1e1f1f;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    border-bottom: solid 2px white;
+    width: 100%; }
+    .lista section p {
+      color: #999898;
+      margin-left: 6px; }
+    .lista section ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin: 2px 5px; }
+      .lista section ul li {
+        color: #999898; }
+
+/* pagina 4 */
+.listaT1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 1% 3%;
+  margin-top: 10px; }
+  .listaT1 section {
+    background-color: #1e1f1f;
+    display: flex;
+    flex-direction: column; }
+    .listaT1 section h3 {
+      color: #999898;
+      padding: 10px;
+      margin-left: 20px; }
+    .listaT1 section div {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding-left: 20px;
+      border-bottom: solid 2px white;
+      width: 100%;
+      object-fit: contain; }
+      .listaT1 section div .texto {
+        color: #999898;
+        margin-left: 6px;
+        width: 80%;
+        height: 80%; }
+      .listaT1 section div img {
+        width: 10%;
+        height: 10%;
+        border-radius: solid black 1px;
+        margin: 0px 10px; }
+
+.listaT2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 1% 3%;
+  margin-top: 10px; }
+  .listaT2 section {
+    background-color: #1e1f1f;
+    display: flex;
+    flex-direction: column; }
+    .listaT2 section h3 {
+      color: #999898;
+      padding: 10px;
+      margin-left: 20px; }
+    .listaT2 section div {
+      display: flex;
+      flex-direction: row-reverse;
+      flex-wrap: wrap;
+      padding-right: 20px;
+      border-bottom: solid 2px white;
+      width: 100%;
+      object-fit: contain;
+      justify-content: start; }
+      .listaT2 section div .texto {
+        color: #999898;
+        margin-left: 6px;
+        width: 80%;
+        height: 80%; }
+      .listaT2 section div img {
+        width: 10%;
+        height: 10%;
+        border-radius: solid black 1px;
+        margin: 0px 40px 20px; }
+
+.seccionCategorias {
+  grid-row: 3;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .seccionCategorias a {
+    width: 25%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around; }
+    .seccionCategorias a section {
+      text-align: center;
+      margin-top: 30px;
+      margin-right: 20px;
+      padding: 10px 10px;
+      border: 1px solid white;
+      box-shadow: 10px 10px 5px rgba(75, 74, 74, 0.8);
+      width: 350px;
+      height: 320px; }
+      .seccionCategorias a section img {
+        width: 95%;
+        height: 80%; }
+      .seccionCategorias a section h3 {
+        color: #999898;
+        margin-top: 5px;
+        padding: 5px;
+        border-radius: 10px;
+        width: 100%; }
+
+@media (max-width: 500px) {
+  .seccionCategorias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    max-width: 100vw; }
+    .seccionCategorias a {
+      width: 100%; }
+      .seccionCategorias a section img {
+        width: 90%;
+        height: 80%; }
+  .presentacion {
+    background-color: #1e1c1c;
+    align-items: center;
+    padding: 20px;
+    grid-row: 2;
+    margin: 20px 10%;
+    border: solid 1px white;
+    border-radius: 20px;
+    box-shadow: 10px 20px 10px rgba(75, 74, 74, 0.8); }
+    .presentacion h1 {
+      font-size: 1.5rem; }
+    .presentacion h3 {
+      font-size: 1.2rem; }
+    .presentacion p {
+      font-size: 1rem; } }
+
+@media (min-width: 751px) and (max-width: 1024px) {
+  .seccionCategorias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px; }
+    .seccionCategorias a section {
+      width: 220px;
+      height: 220px; }
+  .presentacion {
+    display: flex;
+    flex-direction: column;
+    background-color: #1e1c1c;
+    align-items: center;
+    padding: 20px;
+    grid-row: 2;
+    margin: 20px 10%;
+    border: solid 1px white;
+    border-radius: 20px;
+    box-shadow: 10px 20px 10px rgba(75, 74, 74, 0.8); }
+    .presentacion h1 {
+      font-size: 1.5rem; }
+    .presentacion h3 {
+      font-size: 1.2rem; }
+    .presentacion p {
+      font-size: 1rem; } }
+
+@media (min-width: 501px) and (max-width: 750px) {
+  .seccionCategorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 40px; }
+    .seccionCategorias a section {
+      width: 160px;
+      height: 160px;
+      margin: 10px; }
+      .seccionCategorias a section img {
+        height: 100%;
+        width: 100%; } }

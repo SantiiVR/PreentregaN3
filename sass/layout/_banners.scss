@@ -1,0 +1,32 @@
+
+.presentacion{
+    background-color: rgb(28, 28, 28); 
+    align-items: center;
+    padding: 20px;
+    grid-row: 2;
+    margin: 40px 10%;
+    border: solid 1px white;
+    border-radius: 20px;
+    box-shadow: 10px 20px 10px rgba(75, 74, 74, 0.8);
+    
+    h1 {
+        text-align: center;
+        color: #999898;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    h2 {
+        color: #999898 ;
+        text-transform:capitalize;
+        font-weight: bold;
+    }
+
+
+    p{
+        color: #999898 ;
+        font-style: italic;
+        margin-top: 10px;
+    }
+}
+
