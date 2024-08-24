@@ -41,7 +41,7 @@ body {
   align-items: center;
   justify-content: center;
   object-fit: contain;
-  background-image: url(../../assets/imagenes/fondoLogo.jpg);
+  background-image: url(../assets/imagenes/fondoLogo.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%; }
